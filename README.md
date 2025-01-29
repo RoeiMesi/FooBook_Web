@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>FooBook_Web: Part 3</h1>
+  <h1>FooBook_Web</h1>
 </div>
 <p align="center">
   <img src="https://github.com/RoeiMesi/FooBook_Android/assets/23407020/3d17bb9e-deb7-4f75-a8d4-13802d6e0e38" alt="foobook_logo">
