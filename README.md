@@ -1,5 +1,19 @@
-# FooBook_Web
+<div align="center">
+  <h1>FooBook_Web</h1>
+</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/RoeiMesi/FooBook_Android/main/app/src/main/res/drawable/foobook_logo.png" alt="foobook_logo">
+</p>
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Enhanced URL Security Features](#enhanced-url-security-features)
+- [Getting Started](#getting-started)
+- [Note](#note)
+- [Photos](#photos)
+  
+## Introduction
 FooBook_Web is the React-based frontend for the Foobook social media platform, designed to interact seamlessly with the Foobook_Server's API endpoints. This client-side application provides users with an intuitive interface to engage with the platform's core features, including post creation, friend management, and user profile customization.
 
 ## Features
@@ -20,6 +34,10 @@ FooBook_Web is the React-based frontend for the Foobook social media platform, d
   - The friend list allows users to view their friends' friend lists or delete friends. Deleting a friend removes the user from the friend's list as well, ensuring mutual friendship management.
 - **User Profile Editing**:
   - Clicking the "vv" button at the top right opens a menu for editing the user's display name or profile picture and provides an option to delete the user account, which also deletes all associated posts.
+
+## Enhanced URL Security Features
+- **Malicious URL Detection and Blocking**: When a user attempts to create or edit a post that includes URLs, the web client first sends these URLs to the Node.js server. The Node.js server then makes an API call to the TCP server, which checks these URLs against a Bloom filter to determine if they are malicious. If any URL is flagged as malicious by the TCP server, the Node.js server informs the web client, and the post creation or editing action is immediately denied. An alert is subsequently shown to the user, explaining why the post could not be processed.
+- **Enhanced Security Alerts**: Alerts have been updated to provide clearer information regarding the denial of post creation or editing due to the presence of malicious URLs.
 
 ## Getting Started
 
@@ -53,7 +71,7 @@ npm start
 
 FooBook_Web is the frontend part of the Foobook social media platform. To utilize all features, such as posting, friend requests, and profile management, the backend server (Foobook_Server) must be operational.
 
-For more details on setting up and running the backend, refer to the FooBook_Server README at https://github.com/TomerBeren/FooBook_Server.
+For more details on setting up and running the backend, including detailed technical documentation and updates, refer to the FooBook_Server [README](https://github.com/TomerBeren/FooBook_Server) and our comprehensive [Wiki](https://github.com/TomerBeren/FooBook-Server-Public/tree/tcp-server-main/wiki).
 
 ## Photos
 
@@ -64,14 +82,3 @@ For more details on setting up and running the backend, refer to the FooBook_Ser
 ![Screenshot 2024-03-16 181037](https://github.com/TomerBeren/FooBook_Web/assets/118894673/2bc2804b-5592-46db-9465-d9bc3a129f4b)
 ![Screenshot 2024-03-16 181054](https://github.com/TomerBeren/FooBook_Web/assets/118894673/2aabe906-e86d-4da3-b1cd-6daf871ca5ad)
 ![Screenshot 2024-03-16 181132](https://github.com/TomerBeren/FooBook_Web/assets/118894673/7b3a13a5-3d91-4e81-b777-30da9183e28d)
-
-
-
-
-
-
-
-
-
-
-
