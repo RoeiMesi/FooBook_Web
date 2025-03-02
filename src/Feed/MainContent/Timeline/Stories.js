@@ -8,11 +8,11 @@ const Stories = ({ theme }) => {
 
     const storiesData = [
         { image: userDetails.profilePic, label: 'Create Story', isMain: true },
-        { image: 'https://source.unsplash.com/random/18', label: 'Story 2' },
-        { image: 'https://source.unsplash.com/random/19', label: 'Story 3' },
-        { image: 'https://source.unsplash.com/random/20', label: 'Story 4' },
-        { image: 'https://source.unsplash.com/random/21', label: 'Story 5' },
-        { image: 'https://source.unsplash.com/random/22', label: 'Story 6' },
+        { image: 'https://images.unsplash.com/photo-1509281373149-e957c6296406?q=80&w=1928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', label: 'Story 2' },
+        { image: 'https://images.unsplash.com/photo-1509114397022-ed747cca3f65?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', label: 'Story 3' },
+        { image: 'https://plus.unsplash.com/premium_photo-1666901328734-3c6eb9b6b979?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', label: 'Story 4' },
+        { image: 'https://plus.unsplash.com/premium_photo-1679314213957-909df10381ac?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', label: 'Story 5' },
+        { image: 'https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', label: 'Story 6' },
     ];
 
     return (

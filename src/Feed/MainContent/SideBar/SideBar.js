@@ -34,12 +34,12 @@ const Sidebar = ({theme}) => {
                         <h4 class="m-0 text-muted">Your Shortcuts</h4>
                         <p class="m-0 text-primary me-3">Edit</p>
                     </div>
-                    <MemoryItem src="https://source.unsplash.com/random/13" label="Memories" />
-                    <MemoryItem src="https://source.unsplash.com/random/14" label="Archive" />
-                    <MemoryItem src="https://source.unsplash.com/random/15" label="Activities" />
-                    <MemoryItem src="https://source.unsplash.com/random/16" label="Games" />
-                    <MemoryItem src="https://source.unsplash.com/random/17" label="Favourites" />
-                    <MemoryItem src="https://source.unsplash.com/random/18" label="Stories" />
+                    <MemoryItem src="https://images.unsplash.com/photo-1518895949257-7621c3c786d7?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" label="Memories" />
+                    <MemoryItem src="https://images.unsplash.com/photo-1508138221679-760a23a2285b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" label="Archive" />
+                    <MemoryItem src="https://plus.unsplash.com/premium_photo-1664392248318-4e1d9361726e?q=80&w=1966&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" label="Activities" />
+                    <MemoryItem src="https://st4.depositphotos.com/33133132/39116/v/450/depositphotos_391165530-stock-illustration-pixel-game-logo-design-vector.jpg" label="Games" />
+                    <MemoryItem src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" label="Favourites" />
+                    <MemoryItem src="https://images.unsplash.com/photo-1509281373149-e957c6296406?q=80&w=1928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" label="Stories" />
                 </ul>
 
             </div>
